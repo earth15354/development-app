@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Shape of You",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "length": "3:15",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Crazy",
+    "artist": "Alef Beats",
+    "genre": "Acapella",
+    "length": "2:43",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "This Game",
+    "artist": "Konomi Suzuki",
+    "genre": "J-Pop",
+    "length": "4:21",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "It's My Life",
+    "artist": "Bon Jovi",
+    "genre": "Rock",
+    "length": "2:55",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Perfect",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "length": "3:33",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Baby",
+    "artist": "Justin Bieber",
+    "genre": "Pop",
+    "length": "1:55",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Don't Lose Sight",
+    "artist": "Brown Derbies",
+    "genre": "Acapella",
+    "length": "4:15",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Under Pressure",
+    "artist": "Queen",
+    "genre": "Rock",
+    "length": "6:15",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Oz",
+    "artist": "yama",
+    "genre": "J-Pop",
+    "length": "2:53",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Grenade",
+    "artist": "Bruno Mars",
+    "genre": "Pop",
+    "length": "3:35",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Trip Around the Sun",
+    "artist": "Kenny Chesney",
+    "genre": "Country",
+    "length": "3:15",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Turkish March",
+    "artist": "Ludwig Van Beethoven",
+    "genre": "Classical",
+    "length": "4:20",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Minute Waltz",
+    "artist": "Frederic Chopin",
+    "genre": "Classical",
+    "length": "1:00",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "Everything Goes On",
+    "artist": "Porter Robinson",
+    "genre": "Pop",
+    "length": "3:15",
+    "image": "images/thumbnail.png"
+  },
+  {
+    "name": "The Final Countdown",
+    "artist": "Europe",
+    "genre": "Rock",
+    "length": "5:01",
+    "image": "images/thumbnail.png"
+  }
+]

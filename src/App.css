@@ -1,0 +1,256 @@
+/* Add styling for your page here */
+
+.App {
+  background-color: rgb(238, 252, 252);
+  padding-left: 1vw;
+  padding-right: 1vw;
+  display: flex;
+  /* flex-direction: column; */
+  width: 100vw;
+  /* max-width: 1280px; */
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  padding: 1rem;
+}
+
+.Cart {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+  width: 30vw;
+  padding: 1rem;
+}
+
+.BakeryItem {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 251 254 / var(--tw-bg-opacity));
+  border-radius: 0.45rem;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.FavoriteItem {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 251 254 / var(--tw-bg-opacity));
+  border-radius: 0.45rem;
+  padding-right: 2vw;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  height: 50px;
+}
+
+.Header {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 251 254 / var(--tw-bg-opacity));
+  border-radius: 0.45rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 10vw;
+  height: 50px;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.25rem;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgb(219, 251, 254);
+}
+
+.descriptors {
+  padding: 1rem;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-grow: 1;
+  flex: 1 1 0%;
+  display: flex;
+}
+
+.priceCart {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.headerGenre {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 45%;
+}
+
+.nameArtist {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.headerArtist {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 48.5%;
+}
+
+.addFavButt {
+  background-color: #048b59; /* Green */
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5vw 0.5vw;
+  margin: 0.5vw 0.5vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  width: 10vw;
+}
+
+.addFavButt:first-child:active, .addFavButt.active, .addFavButt.show, .addFavButt:hover { 
+  background-color: #035f3d; /* Green */
+}
+
+.Reset {
+  background-color: #690202; /* Green */
+  border: none;
+  color: white;
+  border-radius: 0.4rem;
+  /* padding-top: 0.75rem;
+  padding-bottom: 0.75rem; */
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.Reset:first-child:active, .Reset.active, .Reset.show, .Reset:hover { 
+  background-color: #cf8d8d; /* Green */
+  color: black;
+}
+
+.Items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Dropdowns {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.nestedDrop {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  text-align: left;
+}
+
+.nestedDrop:first-child:active, .nestedDrop.active, .nestedDrop.show, .nestedDrop:hover {
+  background-color: rgb(230, 230, 230);
+  color: black;
+}
+
+button {
+  opacity: 85%;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 40px;
+  padding: 5px;
+}
+h2 {
+  font-weight: normal;
+  font-size: 30px;
+  padding: 10px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+h3 {
+  padding: 0px;
+  /* padding-left: 1rem; */
+  text-align: center;
+  margin: 0px;
+  font-size: 17px;
+}
+h4 {
+  padding: 0px;
+  /* padding-left: 1rem; */
+  text-align: center;
+  margin: 0px;
+  font-size: 15px;
+}
+p {
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+  font-size: 15px;
+}
+p.items {
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .Main {
+    width: 100vw;
+  }
+
+  .addFavButt {
+    font-size: 13px;
+  }
+
+  .favDrop {
+    position: fixed;
+    display: block; 
+    top: 10px;
+    right: 10px;
+  }
+
+  .favMenu {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
