@@ -108,7 +108,7 @@ img {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 48.5%;
+  width: 45%;
 }
 
 .addFavButt {
@@ -223,6 +223,7 @@ p.items {
 
   .addFavButt {
     font-size: 13px;
+    width: 15vw;
   }
 
   .favDrop {
@@ -237,6 +238,13 @@ p.items {
     padding-right: 5px;
   }
 
+  .priceCart {
+    width: 50%;
+  }
+
+  .headerGenre {
+    width: 50%;
+  }
 
   h1 {
     font-size: 30px;
