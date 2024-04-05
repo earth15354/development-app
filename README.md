@@ -1,3 +1,13 @@
+The website is deployed [here](https://uiux-development-app.vercel.app/): https://uiux-development-app.vercel.app/
+
+To start the website locally, run `npm install` then `npm start`.
+
+No known bugs are present, but the interface on a narrow phone screen looks slightly awkward.
+
+The rest of this README are default instructions from React.
+
+-----------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
